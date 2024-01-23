@@ -1,7 +1,7 @@
 [
   {
     "id": "c67ab8a7",
-    "title": "Booki",
+    "title": "Booki - location de vacances",
     "image": "./images/booki.jpg",
     "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS (version desktop et mobile)."
   },
@@ -19,7 +19,7 @@
   },
   {
     "id": "a45ac9a1",
-    "title": "Nina Carducci",
+    "title": "Nina Carducci - SEO",
     "image": "./images/nina.jpg",
     "description": "Débuggage optimisation d'un site de photographe."
   },

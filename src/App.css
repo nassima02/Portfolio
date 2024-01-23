@@ -20,9 +20,6 @@ h1 {
 }
 
 
-/*.animateDrop {*/
-/*    animation: slide 1s linear infinite 0s running;*/
-/*}*/
 @keyframes moveUpDown {
     0% {
         transform: translateY(0%);

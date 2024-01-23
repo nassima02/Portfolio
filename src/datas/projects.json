@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c67ab8a7",
+    "title": "Booki",
+    "image": "./images/booki.jpg",
+    "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS (version desktop et mobile)."
+  },
+  {
+    "id": "c65ac8a7",
+    "title": "Prtfolio Architect d'intérieur",
+    "image": "./images/architect.png",
+    "description": "développer le front-end d’un site portfolio d’une architecte d’intérieur. (version desktop et mobile)."
+  },
+  {
+    "id": "b65ac8a1",
+    "title": "Menu Maker By Qwenta",
+    "image": "./images/menu.png",
+    "description": "Préparer et planifier le projet de développement d’un site."
+  },
+  {
+    "id": "a45ac9a1",
+    "title": "Nina Carducci",
+    "image": "./images/nina.jpg",
+    "description": "Débuggage optimisation d'un site de photographe."
+  },
+  {
+    "id": "f32ac8a1",
+    "title": "Kasa",
+    "image": "./images/kasa.png",
+    "description": "développer la partie front end d'une application React du site Kasa de location d'appartement entre particulier. (version desktop et mobile)"
+  },
+  {
+    "id": "d57ac8b1",
+    "title": "Mon Vieux Grimoire",
+    "image": "./images/grimoire.png",
+    "description": "Développez le back-end d'un site de notation de livres. (version desktop et mobile)"
+  }
+]

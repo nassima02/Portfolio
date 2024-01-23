@@ -1,10 +1,15 @@
 //import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import Home from '../App'
+import {loadProjects} from "../projects-services.jsx";
 
 export const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <Home/>,
+		loader: async () => {
+			const projectsData = await loadProjects()
+						return { ...projectsData, }
+		},
 	},
 ])

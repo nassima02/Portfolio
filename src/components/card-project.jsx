@@ -1,6 +1,4 @@
 import  { useState } from 'react';
-import PropTypes from 'prop-types';
-
 function CardProject({ title, imageUrl }) {
     const [isHovered, setIsHovered] = useState(false);
 
@@ -29,7 +27,6 @@ function CardProject({ title, imageUrl }) {
                                 transform: isHovered ? 'translateY(-50%)' : 'translateY(0)',
                                 paddingTop: isHovered ? '60px' : '0',
                             }}
-
                         >
                             {/*<span>{`${description}`}</span>*/}
                             <span
@@ -56,10 +53,5 @@ function CardProject({ title, imageUrl }) {
         </div>
     );
 }
-
-CardProject.propTypes = {
-    title: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string.isRequired,
-};
 
 export default CardProject;

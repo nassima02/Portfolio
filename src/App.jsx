@@ -4,7 +4,7 @@ import CardProject from "./components/card-project.jsx";
 import Title from "./components/title.jsx";
 import { useLoaderData } from 'react-router-dom'
 import CardSkills from "./components/card-skills.jsx";
-import PropTypes from 'prop-types';
+import ContactForm from "./components/formulaire-de-contact.jsx";
 
 function Home() {
     const { projects, skills} = useLoaderData()
@@ -13,7 +13,8 @@ function Home() {
           <Header/>
           <section className="flex flex-col items-center h-auto ">
               <Title>Mes projets</Title>
-              <section className="gap-8 md:gap-16 px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  w-[100%] md:w-[80%]">
+              <section
+                  className="gap-8 md:gap-16 px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  w-[100%] md:w-[80%]">
                   {projects.map((project) => (
                       <CardProject
                           key={project.id}
@@ -29,7 +30,7 @@ function Home() {
               <div className="flex flex-col items-center bg-[#2b3144] h-auto p-8 ">
                   <Title style={{color: 'white'}}>Mes compétences</Title>
 
-                  <section className="grid grid-cols-3 text-lg gap-4">
+                  <section className="grid grid-cols-3 text-md gap-4">
                       {skills &&
                           skills.map((skillCategory) => (
                               <CardSkills
@@ -42,9 +43,15 @@ function Home() {
               </div>
           </section>
           <section className="bg-[#F5F5F5] xl:flex relative flex justify-center items-center text-[#2b3144]">
-              <div className="xl:w-1/2  px-8 md:px-8 max-w-[800px] w-[100%] z-10">
+              <div className="xl:w-1/2  px-10 md:px-10  w-[100%] z-10">
                   <Title>A propos de moi</Title>
-                  <p className="text-xl p-10">
+                  <img
+                      className="l:w-1/2 xl:block hidden absolute top-0 left-0 h-[30%] z-0  "
+                      src={'./images/photo3.jpg'}
+                      alt="image d'ordinateur + une plante"
+                  />
+
+                  <p className="text-xl pb-16 px-5 text-justify">
                       Fort d'une expérience de 12 ans en tant qu'infirmière
                       dévouée, j'ai décidé de m'engager dans un tout nouveau
                       chapitre de ma vie professionnelle en me convertissant
@@ -65,14 +72,16 @@ function Home() {
               <img
                   className="  l:w-1/2 xl:block hidden absolute top-0 right-0 h-[100%] z-0 "
                   src={'images/photo.jpg'}
-                  alt="Votre description"
+                  alt="image d'ordinateur + une plante"
               />
+          </section>
+          <section className="flex flex-col bg-[#2b3144] items-center text=[#efeff1] pb-10 justify-center">
+
+              <Title style={{color: 'white'}}>Me contacter</Title>
+              <p className="text-white pb-10">N'hésitez pas à me contacter via ce formulaire</p>
+              <ContactForm/>
           </section>
       </div>
   )
 }
-CardProject.propTypes = {
-    title: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string.isRequired,
-};
 export default Home

@@ -1,4 +1,3 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
@@ -20,10 +19,10 @@ function Header() {
 			</div>
 
 			{/* Logo du header */}
-			<div className="flex left-5 absolute py-5 sm:py-3 md:py-2 items-center">
+			<div className="left-7 absolute top-6 sm:py-3 md:py-2  border-r-amber-50 border-solid border-r-4 animate-pulse animate-inline">
 				<img
-					className="w-24 sm:w-34 md:w-44"
-					src={'./logos/logo-portfolio.png'}
+					className=" w-12 md:w-18"
+					src={'./logos/logo.png'}
 					alt="logo-portfolio"
 				/>
 			</div>
@@ -75,7 +74,7 @@ function Header() {
 						<div className="flex mb-1 items-center  w-[20px] h-[20px] rounded-3xl bg-[#efeff1] iconClass">
 							<img
 								className=" w-[23px] h-[23px]  object-cover duration-700 hover:opacity-100 hover:scale-110 "
-								src={'/logo-github.svg'}
+								src={'./logos/logo-github.svg'}
 								alt="logo-github"
 								onClick={() => window.location.href = "https://github.com/nassima02"}
 							/>
@@ -85,15 +84,21 @@ function Header() {
 			{/* Texte introduction*/}
 			<div className="flex mt-[80%] sm:mt-[65%] md:mt-[35%] absolute">
 				<span
-					className="text-xl md:text-4xl sm:text-2xl leading-[2] sm:leading-[3] md:leading-[3] animate-pulse animate-inline "
+					className="text-xl md:text-4xl sm:text-2xl leading-[2] sm:leading-[3] md:leading-[3] "
 				>
-					Nassima Bression <br/>
-					DEVELOPPEUSE WEB<br/>
-                    Bienvenue sur mon Portfolio
+					<img
+						className="w-[500px] sm:[600px] md:[700px]"
+						src={'./logos/logo-portfolio.png'}
+						alt="logo-portfolio"
+					/>
+					{/*Nassima Bression <br/>*/}
+					{/*DEVELOPPEUSE WEB<br/>*/}
+                    {/*BIENVENUE SUR MON PORTFOLIO*/}
                 </span>
 			</div>
-			<AnimatedComponent />
+			<AnimatedComponent/>
 		</header>
 	)
 }
+
 export default Header

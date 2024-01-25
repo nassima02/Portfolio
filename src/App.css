@@ -4,7 +4,7 @@
   /*padding: 2rem;*/
   text-align: center;
 }
-
+/***** style des titres ***********/
 h1 {
   @apply text-[#2b3144] text-center m-8 text-4xl font-bold;
 }

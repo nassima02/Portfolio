@@ -13,7 +13,8 @@
       },
       {
         "icon": "./logos/js.png",
-        "name": "JavaScript"
+        "name": "JavaScript",
+        "span" : "col-span-2"
       },
       {
         "icon": "./logos/react.png",
@@ -40,7 +41,8 @@
 
       {
         "icon": "./logos/mongodb.png",
-        "name": "MongoDB"
+        "name": "MongoDB",
+        "span" : "col-span-2"
       }
     ]
   },
@@ -57,12 +59,13 @@
         "name": "Github"
       },
       {
-        "icon": "./logos/notion.png",
-        "name": "Notion"
+        "icon": "./logos/figma.png",
+        "name": "Figma",
+        "span" : "col-span-2"
       },
       {
-        "icon": "./logos/figma.png",
-        "name": "Figma"
+        "icon": "./logos/notion.png",
+        "name": "Notion"
       }
     ]
   }

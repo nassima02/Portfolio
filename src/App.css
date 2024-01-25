@@ -38,3 +38,13 @@ h1 {
 .animateDrop {
     animation: moveUpDown 1s linear infinite;
 }
+
+.sidebar-closed {
+    transform: translateY(0);
+    padding-bottom: 0;
+}
+
+.sidebar-open {
+    transform: translateY(-50%);
+    padding-bottom: 20px;
+}

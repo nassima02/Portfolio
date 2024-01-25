@@ -1,0 +1,69 @@
+[
+  {
+    "id": "c65ac8a7",
+    "title": "Front-end",
+    "skillCategory": [
+      {
+        "icon": "./logos/html.png",
+        "name": "HTML5"
+      },
+      {
+        "icon": "./logos/css.png",
+        "name": "CSS3"
+      },
+      {
+        "icon": "./logos/js.png",
+        "name": "JavaScript"
+      },
+      {
+        "icon": "./logos/react.png",
+        "name": "React"
+      },
+      {
+        "icon": "./logos/tailwind.png",
+        "name": "Tailwind"
+      }
+    ]
+  },
+  {
+    "id": "a12b4c56",
+    "title": "Back-end",
+    "skillCategory": [
+      {
+      "icon": "./logos/express.png",
+      "name": "Express"
+    },
+      {
+        "icon": "./logos/nodejs.png",
+        "name": "Node.js"
+      },
+
+      {
+        "icon": "./logos/mongodb.png",
+        "name": "MongoDB"
+      }
+    ]
+  },
+  {
+    "id": "b32b1c56",
+    "title": "Outils",
+    "skillCategory": [
+      {
+        "icon": "./logos/git.png",
+        "name": "Git"
+      },
+      {
+        "icon": "./logos/logo-github.svg",
+        "name": "Github"
+      },
+      {
+        "icon": "./logos/notion.png",
+        "name": "Notion"
+      },
+      {
+        "icon": "./logos/figma.png",
+        "name": "Figma"
+      }
+    ]
+  }
+]

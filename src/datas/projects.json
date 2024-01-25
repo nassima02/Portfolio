@@ -1,7 +1,7 @@
 [
   {
     "id": "c67ab8a7",
-    "title": "Booki - location de vacances",
+    "title": "Booki - Front-end HTML CSS",
     "image": "./images/booki.jpg",
     "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS (version desktop et mobile)."
   },
@@ -25,7 +25,7 @@
   },
   {
     "id": "f32ac8a1",
-    "title": "Kasa",
+    "title": "Kasa - front-end avec React",
     "image": "./images/kasa.png",
     "description": "développer la partie front end d'une application React du site Kasa de location d'appartement entre particulier. (version desktop et mobile)"
   },

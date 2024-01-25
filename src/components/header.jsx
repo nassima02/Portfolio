@@ -13,7 +13,7 @@ function Header() {
 			<div className="relative w-full">
 				<img
 					className="h-svh w-full pt-36 object-cover lg:pt-24 sm:pt-48 "
-					src={'/banner.jpg'}
+					src={'./images/banner.jpg'}
 					alt="Banner"
 				/>
 				<div className="absolute lg:top-24 sm:top-48 bottom-0 w-full bg-black opacity-50"></div>
@@ -23,7 +23,7 @@ function Header() {
 			<div className="flex left-5 absolute py-5 sm:py-3 md:py-2 items-center">
 				<img
 					className="w-24 sm:w-34 md:w-44"
-					src={'./logo-portfolio.png'}
+					src={'./logos/logo-portfolio.png'}
 					alt="logo-portfolio"
 				/>
 			</div>
@@ -68,7 +68,7 @@ function Header() {
 				</div>
 				<div>
 					<div className="iconClass bg-[#2b3144] ">
-							<FontAwesomeIcon icon={faLinkedinIn} />
+							<FontAwesomeIcon icon={faLinkedinIn} onClick={() => window.location.href = "https://www.linkedin.com/in/nassima-bression-25291819b/"} />
 						</div>
 					</div>
 					<div>
@@ -77,6 +77,7 @@ function Header() {
 								className=" w-[23px] h-[23px]  object-cover duration-700 hover:opacity-100 hover:scale-110 "
 								src={'/logo-github.svg'}
 								alt="logo-github"
+								onClick={() => window.location.href = "https://github.com/nassima02"}
 							/>
 						</div>
 					</div>
@@ -91,10 +92,8 @@ function Header() {
                     Bienvenue sur mon Portfolio
                 </span>
 			</div>
-
 			<AnimatedComponent />
 		</header>
 	)
 }
-
 export default Header

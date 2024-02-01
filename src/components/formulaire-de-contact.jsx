@@ -29,7 +29,7 @@ const ContactForm = () => {
 
 	return (
 
-			<form className="flex flex-col w-80" onSubmit={handleSubmit}>
+			<form className="flex flex-col md:w-96 w-full px-6" onSubmit={handleSubmit}>
 				<label className="text-left text-white">
 					Nom:<br/>
 					<input className="w-[100%] h-8"

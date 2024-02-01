@@ -15,62 +15,79 @@ const ContactForm = () => {
 		});
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
-		// Ajoutez ici la logique de traitement du formulaire
-		console.log('Formulaire soumis avec les données :', formData);
-		// Réinitialise les champs du formulaire après la soumission
-		setFormData({
-			name: '',
-			email: '',
-			message: '',
-		});
+
+		try {
+			const response = await fetch('http://localhost:3002/submit-form', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(formData),
+			});
+
+			if (response.ok) {
+				console.log('Formulaire soumis avec succès !');
+				// Réinitialise les champs du formulaire après la soumission
+				setFormData({
+					name: '',
+					email: '',
+					message: '',
+				});
+			} else {
+				console.error('Erreur lors de la soumission du formulaire');
+			}
+		} catch (error) {
+			console.error('Erreur lors de la soumission du formulaire', error);
+		}
 	};
-
 	return (
+<div>
+		<form className="flex flex-col md:w-96 w-full px-6" onSubmit={handleSubmit}>
+			<label className="text-left text=[#2b3144]">
+				Nom:<br/>
+				<input className="w-[100%] h-8 "
+					   type="text"
+					   name="name"
+					   value={formData.name}
+					   onChange={handleChange}
+				/>
+			</label>
+			<br/>
 
-			<form className="flex flex-col md:w-96 w-full px-6" onSubmit={handleSubmit}>
-				<label className="text-left text-white">
-					Nom:<br/>
-					<input className="w-[100%] h-8"
-						   type="text"
-						   name="name"
-						   value={formData.name}
-						   onChange={handleChange}
-					/>
-				</label>
-				<br/>
+			<label className="text-left text-white">
+				Email:<br/>
+				<input
+					className="w-[100%] h-8"
+					type="email"
+					name="email"
+					value={formData.email}
+					onChange={handleChange}
+				/>
+			</label>
+			<br/>
 
-				<label className="text-left text-white">
-					Email:<br/>
-					<input
-						className="w-[100%] h-8"
-						type="email"
-						name="email"
-						value={formData.email}
-						onChange={handleChange}
-					/>
-				</label>
-				<br/>
+			<label className="text-left text=[#2b3144]">
+				Message:<br/>
+				<textarea className="w-[100%] h-32"
+						  name="message"
+						  value={formData.message}
+						  onChange={handleChange}
+				/>
+			</label>
+			<br/>
 
-				<label className="text-left text-white">
-					Message:<br/>
-					<textarea className="w-[100%] h-32"
-							  name="message"
-							  value={formData.message}
-							  onChange={handleChange}
-					/>
-				</label>
-				<br/>
+			<button className="text-center text=[#2b3144] bg-[#efeff1] w-28 self-center font-bold"
+					type="submit">Envoyer
+			</button>
 
-				<button className="text-center text=[#2b3144] bg-[#efeff1] w-28 self-center font-bold"
-						type="submit">Envoyer
-				</button>
-				<div className="flex items-center gap-3 border-t border-white  m-6"></div>
-				<p className="text-white text-xs">
-					© 2024 Nassima BRESSION, Tous droits réservés.
-				</p>
-</form>
-);};
+		</form>;
+	<div className="flex items-center gap-3 border-t border-white  m-6"></div>
+	<p className="text-white text-xs">
+		© 2024 Nassima BRESSION, Tous droits réservés.
+	</p></div>
+);
+};
 
 export default ContactForm;

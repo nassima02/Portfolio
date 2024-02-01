@@ -23,6 +23,11 @@
       {
         "icon": "./logos/tailwind.png",
         "name": "Tailwind"
+      },
+      {
+        "icon": "./logos/sass-logo.png",
+        "name": "Sass",
+        "span" : "col-span-2"
       }
     ]
   },
@@ -66,6 +71,10 @@
       {
         "icon": "./logos/notion.png",
         "name": "Notion"
+      },
+      {
+        "icon": "./logos/webstorm-logo.png",
+        "name": "Webstorm"
       }
     ]
   }

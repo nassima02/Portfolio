@@ -1,38 +1,81 @@
 [
   {
     "id": "c67ab8a7",
-    "title": "Booki - Front-end HTML CSS",
+    "title": "Booki - Agence de voyage",
     "image": "./images/booki.jpg",
-    "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS (version desktop et mobile)."
+    "description": " <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Mission</h2> <p class='text-left'>Le projet consiste à intégrer à partir d'une maquette</br> l'interface du site, en utilisant le responsive désigne. </p> <h2 class='text-[#2b3144] text-lg text-left font-bold pt-3'>Technologies / Outils utilisées</h2><span class='flex text-[#6E8CAB] text-sm '><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>HTML</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>CSS</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Figma</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>GitHub</p></span>",
+    "urlSite": "https://nassima02.github.io/booki-starter-code/",
+    "urlCode": "https://github.com/nassima02/booki-starter-code",
+    "pictures": [
+      "./images/booki-ecran.jpg"
+    ]
   },
   {
     "id": "c65ac8a7",
-    "title": "Prtfolio Architect d'intérieur",
+    "title": "Portfolio - Architect d'intérieur",
     "image": "./images/architect.png",
-    "description": "développer le front-end d’un site portfolio d’une architecte d’intérieur. (version desktop et mobile)."
+    "description": " <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Mission</h2> <p class='text-left'>- Développer le front-end d’un site portfolio d’une architecte d’intérieur.</p> <p class='text-left'>- Utilisation de l'API de l'architecte (pour la gestion et la persistance des données).</p><h2 class='text-[#2b3144] text-lg text-left font-bold pt-3'>Technologies / Outils utilisées</h2><span class='flex text-[#6E8CAB] text-sm '><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>HTML</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>CSS</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Javascript</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Figma</p></span>",
+    "urlCode": "https://github.com/nassima02/Portfolio-architecte-sophie-bluel",
+    "pictures": [
+      "./images/architect/dessin.svg",
+      "./images/architect/dessin1.svg",
+      "./images/architect/dessin2.svg",
+      "./images/architect/dessin3.svg",
+      "./images/architect/dessin4.svg",
+      "./images/architect/dessin5.svg"
+    ]
   },
   {
     "id": "b65ac8a1",
     "title": "Menu Maker By Qwenta",
     "image": "./images/menu.png",
-    "description": "Préparer et planifier le projet de développement d’un site."
+    "description": " <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Mission</h2> <p class='text-left'>Préparer et planifier le projet de développement du site en se basant sur</br> la maquette, les spécifications fonctionnelles, ainsi que les user stories.  Les étapes clés comprennent : </br>- Développement d'un système de veille pour générer des idées.</br>- Définir les spécifications techniques.</br>- Organiser la gestion de projet pour le développement. </p> <h2 class='text-[#2b3144] text-lg text-left font-bold pt-3'>Outils utilisés</h2><span class='flex text-[#6E8CAB] text-sm'><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Feedly</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Notion</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Methode Agile</p></span>",
+    "pictures": [
+      "./images/architect-project.png",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+    ]
   },
   {
     "id": "a45ac9a1",
-    "title": "Nina Carducci - SEO",
+    "title": "Nina Carducci - Photographe",
     "image": "./images/nina.jpg",
-    "description": "Débuggage optimisation d'un site de photographe."
+    "mission":"Débuggez et optimisez un site de photographe",
+    "urlSite": "https://nassima02.github.io/nina-carducci.github.io-/",
+    "urlCode": "https://github.com/nassima02/nina-carducci.github.io-",
+    "description": " <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Mission</h2> <p class='text-left'> Débuggez et optimisez un site de photographe.</p> <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Points d'amélioration</h2><span class=' text-sm text-[#6E8CAB]'><p class='text-left pb-3'>- Correction des bugs</p><p class='text-left pb-3'>- Optimisation des images</p><p class='text-left pb-3'>- SEO</p></span>",
+    "pictures": [
+      "./images/nina-ecran.jpg"
+    ]
   },
   {
     "id": "f32ac8a1",
-    "title": "Kasa - front-end avec React",
+    "title": "Kasa - Location d’appartements",
     "image": "./images/kasa.png",
-    "description": "développer la partie front end d'une application React du site Kasa de location d'appartement entre particulier. (version desktop et mobile)"
+    "description": " <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Mission</h2> <p class='text-left'> Développeur le front-end d’un site portfolio d’une architecte d’intérieur.</p> <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Technologies utilisées</h2><span class='flex text-sm text-[#6E8CAB] '><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>HTML</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>SASS</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>React</p></span>",
+    "urlCode": "https://github.com/nassima02/kaza",
+    "pictures": [
+      "./images/kaza-ecran.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+    ]
   },
   {
     "id": "d57ac8b1",
     "title": "Mon Vieux Grimoire",
     "image": "./images/grimoire.png",
-    "description": "Développez le back-end d'un site de notation de livres. (version desktop et mobile)"
+    "description": " <h2 class='text-[#2b3144] text-lg text-left font-bold py-3'>Mission</h2> <p class='text-left'> Développer le Backend du site de notation de livres.</p> <h2 class='text-[#2b3144] text-xl text-left font-bold py-3'>Technologies / Outils utilisées</h2><span class='flex text-sm text-[#6E8CAB]'><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Node.js</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Express</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>MongoDB</p><p class='text-left border border-[#A5C1CF] rounded-xl px-2 py-1 my-4 mr-4'>Sharp</p></span>",
+    "urlCode": "https://github.com/nassima02/notation-de-livres",
+    "pictures": [
+      "./images/livres/dessin.svg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+    ]
   }
 ]

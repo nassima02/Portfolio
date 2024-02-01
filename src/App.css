@@ -6,17 +6,17 @@
 }
 /***** style des titres ***********/
 h1 {
-  @apply text-[#2b3144] text-center m-8 text-4xl font-bold;
+  @apply text-[#2b3144] text-center  text-4xl font-bold;
 }
 
 .LinkClass{
     @apply text-[#efeff1] no-underline
-    mt-24 sm:mt-16 md:mt-24 lg:mt-0
+    mt-24 md:mt-8
     px-3 sm:px-6 md:px-8 lg:px-6 xl:px-12
     opacity-50 duration-700 hover:opacity-100 hover:scale-110;
 }
 .iconClass{
-    @apply opacity-50  duration-700 hover:opacity-100 hover:scale-125;
+    @apply  opacity-50  duration-700 hover:opacity-100 hover:scale-125;
 }
 
 
@@ -47,4 +47,16 @@ h1 {
 .sidebar-open {
     transform: translateY(-50%);
     padding-bottom: 20px;
+}
+
+.project-card {
+    opacity: 0;
+    transform: translateY(10px);
+    will-change: opacity, transform;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.project-card.visible {
+    opacity: 1;
+    transform: translateY(0);
 }

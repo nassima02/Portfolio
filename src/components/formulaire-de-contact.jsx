@@ -44,50 +44,56 @@ const ContactForm = () => {
 	};
 	return (
 <div>
-		<form className="flex flex-col md:w-96 w-full px-6" onSubmit={handleSubmit}>
-			<label className="text-left text=[#2b3144]">
-				Nom:<br/>
-				<input className="w-[100%] h-8 "
-					   type="text"
-					   name="name"
-					   value={formData.name}
-					   onChange={handleChange}
-				/>
-			</label>
-			<br/>
+	<form className="flex flex-col md:w-[500px] w-full px-6 text-white text-lg" onSubmit={handleSubmit}>
+		<label className="text-left text-white">
+			Nom:<br/>
+			<input
+				className="w-[100%] h-8 text-[#2b3144]"
+				type="text"
+				name="name"
+				value={formData.name}
+				onChange={handleChange}
+			/>
+		</label>
+		<br/>
 
-			<label className="text-left text-white">
-				Email:<br/>
-				<input
-					className="w-[100%] h-8"
-					type="email"
-					name="email"
-					value={formData.email}
-					onChange={handleChange}
-				/>
-			</label>
-			<br/>
+		<label className="text-left text-white">
+			Email:<br/>
+			<input
+				className="w-[100%] h-8 text-[#2b3144]"
+				type="email"
+				name="email"
+				value={formData.email}
+				onChange={handleChange}
+			/>
+		</label>
+		<br/>
 
-			<label className="text-left text=[#2b3144]">
-				Message:<br/>
-				<textarea className="w-[100%] h-32"
-						  name="message"
-						  value={formData.message}
-						  onChange={handleChange}
-				/>
-			</label>
-			<br/>
+		<label className="text-left text-white">
+			Message:<br/>
+			<textarea
+				className="w-[100%] h-32 text-[#2b3144]"
+				name="message"
+				value={formData.message}
+				onChange={handleChange}
+			/>
+		</label>
+		<br/>
 
-			<button className="text-center text=[#2b3144] bg-[#efeff1] w-28 self-center font-bold"
-					type="submit">Envoyer
-			</button>
+		<button
+			className="text-center text-[#2b3144] bg-[#efeff1] w-28 self-center font-bold"
+			type="submit"
+		>
+			Envoyer
+		</button>
+	</form>
 
-		</form>;
 	<div className="flex items-center gap-3 border-t border-white  m-6"></div>
-	<p className="text-white text-xs">
+	<p className="text-white text-sm">
 		© 2024 Nassima BRESSION, Tous droits réservés.
-	</p></div>
-);
+	</p>
+</div>
+	);
 };
 
 export default ContactForm;

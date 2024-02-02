@@ -76,7 +76,7 @@ function Home() {
           <section  id="contact" className="flex flex-col bg-[#2b3144] items-center text=[#efeff1] pb-10 justify-center">
 
               <Title style={{color: 'white'}}>Me contacter</Title>
-              <p className="text-white pb-10">N'hésitez pas à me contacter via ce formulaire</p>
+              <p className="text-white text-xl pb-10">N'hésitez pas à me contacter via ce formulaire</p>
               <ContactForm/>
           </section>
       </div>

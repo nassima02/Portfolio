@@ -48,6 +48,10 @@
         "icon": "./logos/mongodb.png",
         "name": "MongoDB",
         "span" : "col-span-2"
+      },
+      {
+        "icon": "./logos/nodemailer.png",
+        "name": "Nodemailer"
       }
     ]
   },

@@ -3,8 +3,8 @@ import {faGear} from '@fortawesome/free-solid-svg-icons';
 function CardSkills({title, skillCategory}) {
 	return (
 		<div
-			className="flex flex-col px-8 bg-[#efeff1] h-[400px] w-[360px] md:w-[300px] my-6 md:m-8 rounded group hover:shadow-lg hover:shadow-[#808A8A] transition-all">
-			<div className="flex justify-start items-center gap-4 mt-6 md:mt-10">
+			className="flex flex-col px-8 bg-[#efeff1] h-[400px] w-[230px] sm:w-[260px] md:w-[300px] my-6 md:m-8 rounded group hover:shadow-lg hover:shadow-[#808A8A] transition-all">
+			<div className="flex justify-start items-center gap-4 sm:gap-6 mt-6 md:mt-10">
 				<FontAwesomeIcon
 					size="2x"
 					className="text-[#2b3144] group-hover:text-[#808A8A]"

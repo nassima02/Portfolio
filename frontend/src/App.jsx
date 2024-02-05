@@ -46,35 +46,24 @@ function Home() {
                   </section>
               </div>
           </section>
-          <section id="a-propos" className="bg-[#F5F5F5] xl:flex relative flex justify-center items-center text-[#2b3144]">
-              <div className="xl:w-1/2  px-10 md:px-10  w-[100%] z-10">
+          <section id="a-propos" className="bg-[#F5F5F5] xl:flex relative overflow-hidden flex justify-center items-center text-[#2b3144]">
+              <div className="w-[100%] xl:w-1/2 md:px-10  z-10">
                   <Title>A propos de moi</Title>
-                  <img
-                      className="l:w-1/2 xl:block hidden absolute top-0 left-0 h-[30%] z-0  "
-                      src={'./images/photo3.jpg'}
-                      alt="image d'ordinateur + une plante"
-                  />
-
-                  <p className=" text-l md:text-xl md:pb-16 pb-12 md:px-5 text-left">
-                      Après une carrière d'infirmière qui a forgé mes compétences de travail en équipe,
-                      de communication et d'organisation, ma passion inébranlable pour la technologie m'a
-                      conduite vers le développement web. Aujourd'hui, je mets à profit mon expérience diversifiée
-                      pour créer des solutions alliant fonctionnalité et convivialité.
-                      <br/>
-                      <br/>
-                      Mon parcours atypique enrichit ma perspective, apportant une valeur unique à chaque projet.
-                      Bienvenue dans mon univers où ma créativité technologique prend vie.
+                  <div className="parallax-background bg-cover bg-fixed"></div>
+                  <p className=" text-l md:text-lg md:pb-16 pb-12 px-10 text-justify">
+                      Après plusieurs années d'exercice en tant qu'infirmière, je m'oriente désormais
+                      vers une nouvelle expérience professionnelle qui me passionne depuis toujours :
+                      le développement web.<br/> <br/>
+                      Dans cette nouvelle aventure, je mettrai à profit non seulement les compétences
+                      acquises dans le travail collaboratif, l'organisation et la communication, mais aussi
+                      la possibilité d'exprimer ma créativité et ma capacité à résoudre des problèmes
+                      à travers mes réalisations. <br/> <br/>
+                      Mon parcours atypique apportera une valeur ajoutée à chaque projet que j'entreprendrai.<br/><br/>
+                      Bienvenue dans mon univers où s'exprime ma créativité.
                   </p>
               </div>
-
-              <img
-                  className="  l:w-1/2 xl:block hidden absolute top-0 right-0 h-[100%] z-0 "
-                  src={'images/photo.jpg'}
-                  alt="image d'ordinateur + une plante"
-              />
           </section>
           <section  id="contact" className="flex flex-col bg-[#2b3144] items-center text=[#efeff1] pb-10 justify-center">
-
               <Title style={{color: 'white'}}>Me contacter</Title>
               <p className="text-white text-xl pb-10">N'hésitez pas à me contacter via ce formulaire</p>
               <ContactForm/>

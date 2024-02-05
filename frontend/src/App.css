@@ -25,7 +25,7 @@ h1 {
 }
 /***** Style de la section a propos ***********/
 .parallax-background {@apply absolute top-0 left-0 w-full h-full z-[-1];
-    background-image: url('../public/images/parallax2.jpg');
+    background-image: url('../public/images/parallax3.jpg');
     filter: grayscale(10%); /* Ajuster la teinte*/
     opacity: 0.7; /* Ajuster l'opacité */
 }

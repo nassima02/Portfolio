@@ -34,7 +34,7 @@ function Home() {
               <div className="flex flex-col items-center  h-auto bg-[#2b3144]">
                   <Title style={{color: 'white'}}>Mes compétences</Title>
 
-                  <section className="grid grid-cols-1 justify-center sm:grid-cols-2 lg:grid-cols-3 text-md ">
+                  <section className="grid grid-cols-1 justify-center sm:grid-cols-2 lg:grid-cols-3 text-sm md:text-md md:px-8 md:pb-8 sm:mb-8 sm:gap-8 gap-0 md:gap-5 lg:gap-16">
                       {skills &&
                           skills.map((skillCategory) => (
                               <CardSkills
@@ -50,7 +50,7 @@ function Home() {
               <div className="w-[100%] xl:w-1/2 md:px-10  z-10">
                   <Title>A propos de moi</Title>
                   <div className="parallax-background bg-cover bg-fixed"></div>
-                  <p className=" text-l md:text-lg md:pb-16 pb-12 px-10 text-justify">
+                  <p className=" text-l md:text-lg md:pb-16 pb-12 md:pt-6 px-10 text-justify">
                       Après plusieurs années d'exercice en tant qu'infirmière, je m'oriente désormais
                       vers une nouvelle expérience professionnelle qui me passionne depuis toujours :
                       le développement web.<br/> <br/>
@@ -65,7 +65,7 @@ function Home() {
           </section>
           <section  id="contact" className="flex flex-col bg-[#2b3144] items-center text=[#efeff1] pb-10 justify-center">
               <Title style={{color: 'white'}}>Me contacter</Title>
-              <p className="text-white text-xl pb-10">N'hésitez pas à me contacter via ce formulaire</p>
+              <p className="text-white text-sm md:text-lg lg:text-xl pb-10">N'hésitez pas à me contacter via ce formulaire</p>
               <ContactForm/>
           </section>
       </div>

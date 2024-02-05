@@ -36,7 +36,7 @@ const ContactForm = () => {
 
 	return (
 		<div>
-			<form className="flex flex-col md:w-[500px] w-full px-6 text-white text-lg" onSubmit={handleSubmit(onSubmit)}>
+			<form className="flex flex-col  w-[300px]  md:w-[400px]  lg:w-[500px] px-0 text-white text-sm md:text-lg" onSubmit={handleSubmit(onSubmit)}>
 				<label className={`text-left text-white ${errors.name && 'border-red-500'}`}>
 					Nom:<br />
 					<input
@@ -78,7 +78,7 @@ const ContactForm = () => {
 			</form>
 			<ToastContainer />
 			<div className="flex items-center gap-3 border-t border-white m-6"></div>
-			<p className="text-white text-sm">© 2024 Nassima BRESSION, Tous droits réservés.</p>
+			<p className="text-white text-xs md:text-sm">© 2024 Nassima BRESSION, Tous droits réservés.</p>
 		</div>
 	);
 };

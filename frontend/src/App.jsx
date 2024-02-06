@@ -50,7 +50,7 @@ function Home() {
               <div className="w-[100%] xl:w-1/2 md:px-10  z-10">
                   <Title>A propos de moi</Title>
                   <div className="parallax-background bg-cover bg-fixed"></div>
-                  <p className=" text-l md:text-lg md:pb-16 pb-12 md:pt-6 px-10 text-justify">
+                  <p className=" text-sm md:text-lg md:pb-16 pb-12 md:pt-6 px-10 text-justify">
                       Après plusieurs années d'exercice en tant qu'infirmière, je m'oriente désormais
                       vers une nouvelle expérience professionnelle qui me passionne depuis toujours :
                       le développement web.<br/> <br/>

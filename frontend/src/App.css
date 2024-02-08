@@ -70,3 +70,38 @@ h1 {
     opacity: 1;
     transform: translateY(0);
 }
+/****************style du scroll****************/
+.p-scroll {
+    overflow-y: auto;
+    max-height: 80vh; /* Hauteur maximale pour limiter le défilement */
+    padding-right: 4px; /* Pour compenser la disparition de la barre de défilement */
+}
+
+.p-scroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.p-scroll::-webkit-scrollbar-track {
+    background: #efeff1;
+}
+
+.p-scroll::-webkit-scrollbar-thumb {
+    background: #A5C1CF;
+    border-radius: 4px;
+}
+
+.p-scroll:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+.p-scroll {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+/**************** Style contenu de la modale ******************/
+.modal-title {
+    @apply  text-[#2b3144] text-lg text-left font-bold py-3 ;
+}
+.modal-tag{
+    @apply text-left border border-[#A5C1CF] rounded-lg px-2 py-1 my-4 mr-4
+}

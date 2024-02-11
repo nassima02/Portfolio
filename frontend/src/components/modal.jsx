@@ -17,7 +17,7 @@ const Modal = ({ isOpen, closeModal, titreProjet, description, pictures, urlSite
 						</div>
 						<span className="flex self-stretch mb-1 border-b border-solid border-gray-300"></span>
 						<div className="flex flex-col max-w-screen-lg h-4/5 md:h-5/6 ">
-							<div className="flex items-center justify-center md:h-2/3 md:w-full h-full">
+							<div className="flex items-center justify-center md:h-2/3 md:w-full h-full p-scroll">
 								{showControls ? (
 									<Carousel slide={!showControls}>
 										{pictures.map((image, index) => (

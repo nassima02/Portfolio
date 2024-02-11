@@ -3,7 +3,7 @@
     "id": "c67ab8a7",
     "title": "Booki - Agence de voyage",
     "image": "./images/booki.jpg",
-    "description": " <h2 class='modal-title'>Année : 2023</h2>  <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p><h2 class='modal-title'>Mission</h2> <p class='text-left'>Intégrer à partir de la maquette un interface responsive du site.</p>  <h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='flex text-[#6E8CAB] text-sm '><p class='modal-tag'>HTML</p><p class='modal-tag'>CSS</p><p class='modal-tag'>Figma</p><p class='modal-tag'>GitHub</p></span>",
+    "description": " <h2 class='modal-title'>Année : 2023</h2>  <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p><h2 class='modal-title'>Mission</h2> <p class='text-left'>Intégrer à partir de la maquette un interface responsive du site.</p>  <h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>CSS</p><p class='modal-tag'>Figma</p><p class='modal-tag'>GitHub</p></span>",
     "urlSite": "https://nassima02.github.io/booki-starter-code/",
     "urlCode": "https://github.com/nassima02/booki-starter-code",
     "pictures": [
@@ -14,7 +14,7 @@
     "id": "c65ac8a7",
     "title": "Portfolio - Architect d'intérieur",
     "image": "./images/architect/architect.jpg",
-    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>Développer à partir de la maquette et le code Backend fourni, le front-end du site de l'architecte :</p> <p class='text-left'>- la page de présentation des travaux de l'architecte.</p><p class='text-left'>- la page de connexion de l'administrateur du site.</p><p class='text-left'>- la modale permettant d'uploader de nouveaux médias.</p><h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='flex text-[#6E8CAB] text-sm '><p class='modal-tag'>HTML</p><p class='modal-tag'>CSS</p><p class='modal-tag'>Javascript</p><p class='modal-tag'>Figma</p></span>",
+    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>Développer à partir de la maquette et le code Backend fourni, le front-end du site de l'architecte :</p> <p class='text-left'>- la page de présentation des travaux de l'architecte.</p><p class='text-left'>- la page de connexion de l'administrateur du site.</p><p class='text-left'>- la modale permettant d'uploader de nouveaux médias.</p><h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>CSS</p><p class='modal-tag'>Javascript</p><p class='modal-tag'>Figma</p></span>",
     "urlCode": "https://github.com/nassima02/Portfolio-architecte-sophie-bluel",
     "pictures": [
       "./images/architect/architect-accueil1.jpg",
@@ -29,7 +29,7 @@
     "id": "b65ac8a1",
     "title": "Menu Maker By Qwenta",
     "image": "./images/menu.jpg",
-    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>Préparer et planifier le projet de développement du site en se basant sur</br> la maquette, les spécifications fonctionnelles, ainsi que les user stories.  Les étapes clés comprennent : </br>- Développement d'un système de veille pour générer des idées.</br>- Définir les spécifications techniques.</br>- Appliquer la methode scrum pour la gestion de projet.</p> <h2 class='modal-title'>Outils utilisés</h2><span class='flex text-[#6E8CAB] text-sm'><p class='modal-tag'>Feedly</p><p class='modal-tag'>Notion</p><p class='modal-tag'>Methode Agile</p></span>",
+    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>Préparer et planifier le projet de développement du site en se basant sur</br> la maquette, les spécifications fonctionnelles, ainsi que les user stories.  Les étapes clés comprennent : </br>- Développement d'un système de veille pour générer des idées.</br>- Définir les spécifications techniques.</br>- Appliquer la methode scrum pour la gestion de projet.</p> <h2 class='modal-title'>Outils utilisés</h2><span class='tag-container'><p class='modal-tag'>Feedly</p><p class='modal-tag'>Notion</p><p class='modal-tag'>Methode Agile</p></span>",
     "pictures": [
       "./images/menu-acceuil.jpg"
     ]
@@ -38,10 +38,9 @@
     "id": "a45ac9a1",
     "title": "Nina Carducci - Photographe",
     "image": "./images/nina.jpg",
-    "mission":"Débuggez et optimisez un site de photographe",
+    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>Déboguer et optimiser le site de la photographe.</br> Lien vers le site avant optimisation : <a href=\"https://nina-carducci.github.io/\" target=\"_blank\" style=\"color: blue;\">Nina Carducci</a></p></br><p class='text-left pb-3'>- Optimisation des images pour une meilleur performances du site.</p><p class='text-left pb-3'>- Optimisation du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site (SEO).</p><p class='text-left pb-3'>- Correction de bugs: rétablir la navigation dans la modale et corriger la sélection des catégories dans le filtre)</p> <span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>CSS</p><p class='modal-tag'>Javascript</p><p class='modal-tag'>jQuery</p></span>",
     "urlSite": "https://nassima02.github.io/nina-carducci.github.io-/",
     "urlCode": "https://github.com/nassima02/nina-carducci.github.io-",
-    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>Déboguer et optimiser le site de la photographe.</br> Lien avant optimisation : <a href=\"https://nina-carducci.github.io/\" target=\"_blank\" style=\"color: blue;\">Nina Carducci</a></p> <h2 class='modal-title'>Points d'amélioration</h2><span class=' text-sm'><p class='text-left pb-3'>- Optimisation des images pour une meilleur performances du site.</p><p class='text-left pb-3'>- Optimisation du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site (SEO).</p><p class='text-left pb-3'>- Correction de bugs (rétablir la navigation dans la modale et la sélection de la catégorie dans le filtre)</p></span>",
     "pictures": [
       "./images/nina-filtre.jpg",
       "./images/nina-carousel.jpg"
@@ -51,20 +50,18 @@
     "id": "f32ac8a1",
     "title": "Kasa - Location d’appartements",
     "image": "./images/kasa/kasa.jpg",
-    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2>  <p class='text-left'>Développer à partir de la maquette et le code Backend fourni, le front-end du site Kasa :</p> <p class='text-left'>- L'application est développée avec React.</p> <p class='text-left'>-  L'interface responsive avec SASS.</p> <h2 class='modal-title'>Technologies utilisées</h2><span class='flex text-sm text-[#6E8CAB] '><p class='modal-tag'>HTML</p><p class='modal-tag'>SASS</p><p class='modal-tag'>React</p></span>",
+    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2>  <p class='text-left'>Développer à partir de la maquette et le code Backend fourni, le front-end du site Kasa :</p> <p class='text-left'>- L'application est développée avec React.</p> <p class='text-left'>-  L'interface responsive avec SASS.</p> <h2 class='modal-title'>Technologies utilisées</h2><span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>SASS</p><p class='modal-tag'>React</p></span>",
+    "urlSite": "https://kaza.alwaysdata.net/",
     "urlCode": "https://github.com/nassima02/kaza",
     "pictures": [
-      "./images/kasa/kaza-ecran.jpg",
-      "./images/kasa/kaza-ecran1.jpg",
-      "./images/kasa/kaza-ecran2.jpg",
-      "./images/kasa/kaza-ecran3.jpg"
+      "./images/kasa/kaza-ecran.jpg"
     ]
   },
   {
     "id": "d57ac8b1",
     "title": "Mon Vieux Grimoire",
     "image": "./images/livres/grimoire.jpg",
-    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>- Développer le Backend du site de notation de livres.</p> <p class='text-left'>- Intégrer le Green code avec Sharp.</p> <h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='flex text-sm text-[#6E8CAB]'><p class='modal-tag'>Node.js</p><p class='modal-tag'>Express</p><p class='modal-tag'>MongoDB</p><p class='modal-tag'>Sharp</p></span>",
+    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2> <p class='text-left'>- Développer le Backend du site de notation de livres.</p> <p class='text-left'>- Intégrer le Green code avec Sharp.</p> <h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='tag-container'><p class='modal-tag'>Node.js</p><p class='modal-tag'>Express</p><p class='modal-tag'>MongoDB</p><p class='modal-tag'>Sharp</p></span>",
     "urlCode": "https://github.com/nassima02/notation-de-livres",
     "pictures": [
       "./images/livres/acceuil.jpg",

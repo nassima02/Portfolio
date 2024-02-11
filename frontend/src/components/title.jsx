@@ -8,5 +8,4 @@ function Title({ style, children }) {
 		</h1>
 	)
 }
-
 export default Title

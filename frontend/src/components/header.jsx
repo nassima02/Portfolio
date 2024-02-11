@@ -18,7 +18,7 @@ function Header() {
 				<div className="absolute sm:mt-16 z-10">
 					<img
 						className="w-[180px]  lg:w-[400px]"
-						src={'./logos/logo-portfolio-3.png'}
+						src={'./logos/logo-portfolio.png'}
 						alt="logo-portfolio"
 					/>
 				</div>
@@ -33,7 +33,7 @@ function Header() {
 				className="logoClass animate-pulse animate-inline">
 				<img
 					className=" w-7 sm:w-9 lg:w-12 md:w-8"
-					src={'./logos/logo-1.png'}
+					src={'./logos/logo.png'}
 					alt="logo-portfolio"
 				/>
 			</div>

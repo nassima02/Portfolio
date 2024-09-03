@@ -13,8 +13,7 @@
       },
       {
         "icon": "./logos/js.png",
-        "name": "JavaScript",
-        "span" : "col-span-2"
+        "name": "JavaScript"
       },
       {
         "icon": "./logos/react.png",
@@ -23,6 +22,10 @@
       {
         "icon": "./logos/tailwind.png",
         "name": "Tailwind"
+      },
+      {
+        "icon": "./logos/mui.png",
+        "name": "Material UI"
       },
       {
         "icon": "./logos/sass-logo.png",
@@ -52,6 +55,10 @@
       {
         "icon": "./logos/nodemailer.png",
         "name": "Nodemailer"
+      },
+      {
+        "icon": "./logos/sql.png",
+        "name": "SQL"
       }
     ]
   },

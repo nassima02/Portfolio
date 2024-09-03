@@ -15,7 +15,7 @@ function Home() {
           <section id="mes-projets" className="flex flex-col items-center h-auto" >
               <Title>Mes projets</Title>
               <section
-                  className="grid grid-cols-1 gap-8 md:gap-16 p-6 pb-16  sm:grid-cols-2 lg:grid-cols-3  w-[100%] md:w-[80%]" >
+                  className="grid grid-cols-1 gap-8 md:gap-15 p-6 pb-16  md:grid-cols-2 lg:grid-cols-3  w-[100%] md:w-[90%]" >
                   {projects .map((project) => (
                       <CardProject
                           key={project.id}
@@ -26,6 +26,7 @@ function Home() {
                           imageUrl={project.image}
                           siteUrl={project.urlSite}
                           codeUrl={project.urlCode}
+                          logo={project.logo}
                       />
                   ))}
               </section>

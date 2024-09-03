@@ -11,7 +11,7 @@ function NavigationLinks (){
 		<div className="flex items-center my-0 sm:my-7 md:my-4 lg:my-2 xl:my-0 absolute">
 			<div className="flex">
 				<ScrollLink
-					className="LinkClass"
+					className="LinkClass cursor-pointer"
 					to="mes-projets"
 					spy={true}
 					smooth={true}
@@ -21,7 +21,7 @@ function NavigationLinks (){
 					Mes projets
 				</ScrollLink>
 				<ScrollLink
-					className="LinkClass "
+					className="LinkClass cursor-pointer "
 					to="mes-compétences"
 					spy={true}
 					smooth={true}
@@ -31,7 +31,7 @@ function NavigationLinks (){
 					Mes compétences
 				</ScrollLink>
 				<ScrollLink
-					className="LinkClass"
+					className="LinkClass cursor-pointer"
 					to="a-propos"
 					spy={true}
 					smooth={true}
@@ -51,7 +51,7 @@ function NavigationLinks (){
 						duration={600}
 						onClick={scrollToTop}
 					>
-						<div className="iconClass bg-[#161822]">
+						<div className="iconClass bg-[#161822] cursor-pointer">
 							<FontAwesomeIcon icon={faEnvelope}/>
 						</div>
 					</ScrollLink>

@@ -107,3 +107,22 @@ h1 {
 .tag-container{
     @apply flex text-sm text-[#6E8CAB] gap-2 md:gap-4
 }
+@media screen and (min-width: 600px) {
+    .flex-col.md\\:flex-row {
+        flex-direction: row; /* Affichage en ligne */
+        /* Autres styles spécifiques à l'affichage en ligne */
+    }
+}
+
+.flex-container {
+    display: flex;
+    gap: 3rem; /* Ajoute un espacement entre les éléments */
+    /*justify-content: center; !* Centre les éléments horizontalement *!*/
+    align-items: center; /* Centre les éléments verticalement */
+    margin-bottom:1rem;
+    margin-top: 0.7rem
+}
+
+.shadow-inner-dark {
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.7);
+}

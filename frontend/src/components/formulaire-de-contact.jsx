@@ -21,7 +21,7 @@ const ContactForm = () => {
 				data.captchaToken = token;
 
 				try {
-					const response = await fetch('http://localhost:80/submit-form', {
+					const response = await fetch('/submit-form', {
 						method: 'POST',
 						headers: {
 							'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ const ContactForm = () => {
 
 	return (
 		<div>
-			<form className="flex flex-col  w-[300px]  md:w-[400px]  lg:w-[500px] px-0 text-white text-sm md:text-lg"
+			<form className="flex flex-col gap-4 w-[300px]  md:w-[400px]  lg:w-[500px] px-0 text-white text-sm md:text-lg"
 				  onSubmit={handleSubmit(onSubmit)}>
 				<label className={`text-left text-white ${errors.name && 'border-red-500'}`}>
 					Nom:<br/>
@@ -59,7 +59,6 @@ const ContactForm = () => {
 					/>
 					{errors.name && <span className="text-[12px] text-red-500">{errors.name.message}</span>}
 				</label>
-				<br/>
 
 				<label className={`text-left text-white ${errors.email && 'border-red-500'}`}>
 					Email:<br/>
@@ -71,7 +70,6 @@ const ContactForm = () => {
 					/>
 					{errors.email && <span className="text-[12px] text-red-500">{errors.email.message}</span>}
 				</label>
-				<br/>
 
 				<label className={`text-left text-white ${errors.message && 'border-red-500'}`}>
 					Message:<br/>
@@ -82,7 +80,6 @@ const ContactForm = () => {
 					/>
 					{errors.message && <span className="text-[12px] text-red-500">{errors.message.message}</span>}
 				</label>
-				<br/>
 
 				<button className="g-recaptcha text-center text-[#2b3144] bg-[#efeff1] w-28 self-center font-bold"
 						data-sitekey={`${SITE_KEY_RECAPTCHA}`}

@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 import Modal from "./modal.jsx";
-function CardProject({ title, imageUrl, description, pictures, siteUrl, codeUrl}) {
+function CardProject({ title, imageUrl, description, pictures, siteUrl, codeUrl, logo}) {
     const [isHovered, setIsHovered] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
     const openModal = () => {
@@ -27,7 +27,7 @@ function CardProject({ title, imageUrl, description, pictures, siteUrl, codeUrl}
                         }}
                     >
                         <div className="text-[36px] text-center py-5 px-2 text-[#2b3144] "
-                             style={{fontSize: '18px', fontWeight: 700}}>{title}</div>
+                             style={{fontSize: '16px', fontWeight: 700}}>{title}</div>
                         <div
                             className="flex flex-col items-center self-stretch transition-all duration-300 px-4"
                             style={{
@@ -52,7 +52,7 @@ function CardProject({ title, imageUrl, description, pictures, siteUrl, codeUrl}
                          alt={`Image de ${title}`}
                     />
                 </div>
-                <Modal isOpen={modalOpen} closeModal={closeModal} titreProjet={title} description={description} pictures={pictures} urlSite={siteUrl} urlCode={codeUrl} />
+                <Modal isOpen={modalOpen} closeModal={closeModal} titreProjet={title} description={description} pictures={pictures} urlSite={siteUrl} urlCode={codeUrl} logo={logo}/>
             </div>
 
         </div>

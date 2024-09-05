@@ -3,7 +3,7 @@
     "id": "c67ab8a7",
     "title": "Booki - Agence de voyage",
     "image": "./images/booki.jpg",
-    "description": "<h2 class='modal-title'>Année : 2023</h2> <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br> </p><h2 class='modal-title'>Mission</h2> <p class='text-left'>Intégrer à partir de la maquette un interface responsive du site.</p> <h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>CSS</p><p class='modal-tag'>Figma</p><p class='modal-tag'>GitHub</p></span> <h2 class='modal-title'>Identité graphique</h2> <div class='flex-container'><img src='./images/Booki-logo.png' alt='Booki Logo' class='h-16 w-auto' /> <img src='./images/booki-couleurs.png' alt='Booki couleurs' class='h-12 w-auto' /> </div>",
+    "description": "<h2 class='modal-title'>Année : 2023</h2> <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br> </p><h2 class='modal-title'>Mission</h2> <p class='text-left'>Intégrer à partir de la maquette un interface responsive du site.</p> <h2 class='modal-title'>Technologies / Outils utilisées</h2><span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>CSS</p><p class='modal-tag'>Figma</p><p class='modal-tag'>GitHub</p></span> <h2 class='modal-title'>Identité graphique</h2> <div class='flex-container'><img src='./images/Booki-logo.png' alt='Booki Logo' class='h-18 w-auto' /> <img src='./images/booki-couleurs.png' alt='Booki couleurs' class='h-12 w-auto' /> </div>",
     "urlSite": "https://nassima02.github.io/Projet-2-Booki/",
     "urlCode": "https://github.com/nassima02/Projet-2-Booki",
     "pictures": [
@@ -47,7 +47,7 @@
     "id": "f32ac8a1",
     "title": "Kasa - Location d’appartements",
     "image": "./images/kasa/kasa.jpg",
-    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2>  <p class='text-left'>Développer à partir de la maquette et le code Backend fourni, le front-end du site Kasa :</p> <p class='text-left'>- L'application est développée avec React.</p> <p class='text-left'>-  L'interface responsive avec SASS.</p> <h2 class='modal-title'>Technologies utilisées</h2><span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>SASS</p><p class='modal-tag'>React</p></span> <h2 class='modal-title'>Identité graphique</h2> <div class='flex-container'><img src='./images/kasa/logo.png' alt='Booki Logo' class='h-7 w-auto' /> <img src='./images/kasa2.png' alt='Booki couleurs' class='h-12 w-auto' /> </div>",
+    "description": "<h2 class='modal-title'>Année : 2023</h2>   <p class='text-left'>Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2>  <p class='text-left'>Développer à partir de la maquette et le code Backend fourni, le front-end du site Kasa :</p> <p class='text-left'>- L'application est développée avec React.</p> <p class='text-left'>-  L'interface responsive avec SASS.</p> <h2 class='modal-title'>Technologies utilisées</h2><span class='tag-container'><p class='modal-tag'>HTML</p><p class='modal-tag'>SASS</p><p class='modal-tag'>React</p></span> <h2 class='modal-title'>Identité graphique</h2> <div class='flex-container'><img src='./images/kasa/logo.png' alt='Booki Logo' class='h-7 w-auto' /> <img src='./images/kasa2.png' alt='Booki couleurs' class='h-14 w-auto' /> </div>",
     "urlSite": "https://projetoc.alwaysdata.net/",
     "urlCode": "https://github.com/nassima02/kaza",
     "pictures": [
@@ -71,11 +71,11 @@
     "id": "f77ac8a1",
     "title": "DomImages - Photographe",
     "image": "./images/domimages/paris.jpg",
-    "description": "<h2 class='modal-title'>Année : 2024</h2>   <p class='text-left'>Projet réalisé en dehors de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2>  <p class='text-left'>Développer un site de photographe amateur :</p> <p class='text-left'>- L'application est développée avec React.</p> <p class='text-left'>-  utilisation de MUI pour les composants graphiques</p> <h2 class='modal-title'>Technologies utilisées</h2><span class='tag-container'><p class='modal-tag'>React</p><p class='modal-tag'>Node.JS</p><p class='modal-tag'>SQL</p></span>",
+    "description": "<h2 class='modal-title'>Année : 2024</h2>   <p class='text-left'>Projet réalisé en dehors de ma formation OpenClassrooms de développeuse Web.</br>  </p> <h2 class='modal-title'>Mission</h2>  <p class='text-left'>Développer un site de photographe amateur :</p> <p class='text-left'>- L'application est développée avec React.</p> <p class='text-left'>-  utilisation de MUI pour les composants graphiques</p> <h2 class='modal-title'>Technologies utilisées</h2><span class='tag-container'><p class='modal-tag'>React</p><p class='modal-tag'>Node.JS</p><p class='modal-tag'>SQL</p></span> <h2 class='modal-title'>Identité graphique</h2> <div class='flex-container'><img src='./images/domimages/logo.png' alt='domimages Logo' class='h-20 w-auto' /> <img src='./images/domimages/couleurs.png' alt='palettes de couleurs' class='h-14 w-auto' />",
     "urlSite": "https://domimages.alwaysdata.net/",
     "urlCode": "https://github.com/nassima02/domimages",
     "pictures": [
-      "./images/kasa/kaza-ecran.jpg"
+      "./images/domimages/domimages-ecran.jpg"
     ]
   }
 ]
